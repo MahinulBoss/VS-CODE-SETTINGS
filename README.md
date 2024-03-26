@@ -28,3 +28,82 @@
   <li>Stylelint (Stylelint)</li>
   <li>Tailwind CSS Intellisense (Tailwind Labs)</li>
 </ul>
+
+
+
+
+
+
+{
+    "editor.fontSize": 15,
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorBlinking": "expand",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "workbench.colorCustomizations": {
+      "editorGroupHeader.tabsBackground": "#32084e",
+      "activityBar.background": "#290041",
+      "sideBar.background": "#180029",
+      "minimap.background": "#141422",
+      "tab.activeBackground": "#592881",
+      "tab.inactiveBackground": "#270047",
+      "terminal.border": "#39005a",
+      "terminal.background": "#2c2c54",
+      "statusBar.background": "#28005c",
+      "scrollbarSlider.background": "#12001d",
+      "scrollbarSlider.hoverBackground": "#1a0044"
+    },
+    "editor.tokenColorCustomizations": {
+      "comments": "#d9ff00"
+    },
+    "editor.linkedEditing": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "editor.guides.bracketPairsHorizontal": true,
+    "editor.hover.enabled": false,
+    "window.zoomLevel": 0,
+    // Live Server 
+    "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true,
+    // Live SASS Compiler
+    "liveSassCompile.settings.formats": [
+      {
+        "format": "compressed",
+        "extensionName": ".min.css",
+        "savePath": "/css"
+      }
+    ],
+    "liveSassCompile.settings.generateMap": true,
+    // VS Code Theme Customization
+    "workbench.iconTheme": "sweet-vscode-icons",
+    "workbench.colorTheme": "Sweet Dracula",
+    "workbench.editor.enablePreview": false,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.fontSize": 20,
+    "diffEditor.wordWrap": "off",
+    "security.workspace.trust.untrustedFiles": "open"
+    // "files.autoSave": "afterDelay",
+    // "files.autoSaveDelay": 10,
+
+    // Prettier Config
+    "prettier.proseWrap": "always",
+    "prettier.singleQuote": true,
+    "prettier.arrowParens": "avoid",
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    // Screencast Mode
+    "screencastMode.onlyKeyboardShortcuts": true,
+    "screencastMode.mouseIndicatorColor": "#2d0042",
+    "screencastMode.verticalOffset": 0,
+
+    // Enable Emmet support for JSX
+     "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+     }
+  }
