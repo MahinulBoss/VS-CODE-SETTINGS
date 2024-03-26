@@ -33,7 +33,7 @@
 
 
 
-
+//json
 {
     "editor.fontSize": 15,
     "editor.tabSize": 2,
