@@ -1,4 +1,4 @@
-<h1>My Personal VS Code Setting.jason and My Fav Extensions</h1>
+<h1>My Personal VS Code Setting.json and My Fav Extensions</h1>
 <h2>My Fav VS Code Extensoions</h2>
 <ul>
   <li>Auto Close Tag (Jun Han)</li>
